@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我爱你❤，李欣慰！</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f2f2f2;
+        }
+        .text {
+            font-size: 48px;
+            color: #FF69B4; /* 粉红色 */
+            border: 2px solid #FF69B4; /* 粉红色边框 */
+            padding: 10px 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .text:before, .text:after {
+            content: '🌹';
+            font-size: 72px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .text:before {
+            left: -80px; /* 左侧的玫瑰花 */
+        }
+        .text:after {
+            right: -80px; /* 右侧的玫瑰花 */
+        }
+    </style>
+</head>
+<body>
+    <div class="text">我爱你❤，李欣慰！</div>
+</body>
+</html>
